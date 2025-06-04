@@ -12,4 +12,14 @@ public class Task {
         this.day = day;
         this.completed = completed;
     }
+
+    @Override
+    public String toString() {
+        return "Task{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", day='" + day + '\'' +
+                ", completed=" + completed +
+                '}';
+    }
 }
